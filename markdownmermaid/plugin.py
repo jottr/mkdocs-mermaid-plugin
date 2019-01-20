@@ -19,4 +19,4 @@ class MarkdownMermaidPlugin(BasePlugin):
             new_tag.string="mermaid.initialize();"
             soup.body.append(new_tag)
             
-        return unicode(soup)
+        return str(soup)
